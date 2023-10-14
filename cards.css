@@ -1,0 +1,68 @@
+.cards {
+  margin-left: 13vw;
+}
+#card-storage {
+  width: 1400px;
+  justify-content: space-between;
+}
+.cardTitle {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.timeing {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.cards > h3 {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.gift-card {
+  margin-top: 50px;
+  margin-inline: 13vw;
+  width: 1400;
+  justify-content: space-between;
+}
+.title {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.header2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b7280;
+}

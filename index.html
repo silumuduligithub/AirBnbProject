@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIR BNB</title>
+    <link rel="stylesheet" href="./homePage.css" />
+    <link rel="stylesheet" href="./cards.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="./images/logo.png" id="logo" />
+      <div style="padding-left: 10vw">
+        <a href="#">Places to stay</a>
+        <a href="#">Experiences</a>
+        <a href="#">Online Experiences</a>
+      </div>
+      <div class="d-flex">
+        <a style="color: white"
+          >Become a Host <i class="fa-solid fa-globe"></i
+        ></a>
+        <div class="d-flex">
+          <i class="fa-solid fa-bars"></i>
+          <img src="./images/profile icon.png" />
+        </div>
+      </div>
+    </nav>
+    <section id="search-bar">
+      <div class="d-flex" id="search-menu">
+        <div>
+          <h5>Location</h5>
+          <input type="text" placeholder="Where are you going?" />
+        </div>
+        <div>
+          <h5>Check In</h5>
+          <input type="date" placeholder="Add dates" />
+        </div>
+        <div>
+          <h5>Check Out</h5>
+          <input type="date" placeholder="Add dates" />
+        </div>
+        <div>
+          <h5>Guests</h5>
+          <input type="number" placeholder="Add guests" />
+        </div>
+        <div id="search">
+          <i class="fa-solid fa-magnifying-glass" style="color: white"></i>
+        </div>
+      </div>
+    </section>
+    <section id="hero-section">
+      <img src="./images/Big Card.png" />
+    </section>
+    <script src="./homePage.js"></script>
+    <section>
+      <div class="cards">
+        <h3>Inspiration for your next trip</h3>
+        <div class="d-flex" id="card-storage">
+          <div class="card" style="width: 302px">
+            <img
+              src="./images/cards/violin.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body" style="background-color: #cc2d4a;">
+              <p class="cardTitle">Nashville</p>
+              <p class="timeing">53 miles away</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/cards/pond.png"
+              class="card-img-top"
+              alt="picture not found"
+            />
+            <div class="card-body" style="background-color: #bc1a6e;">
+                <p class="cardTitle">South Haven</p>
+                <p class="timeing">168 miles away</p>
+              </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/cards/waterFall.png"
+              class="card-img-top"
+              alt="picture not found"
+            />
+            <div class="card-body" style="background-color: #de3151;">
+                <p class="cardTitle">Stanton</p>
+                <p class="timeing">192 miles away</p>
+              </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/cards/violin.png"
+              class="card-img-top"
+              alt="picture not found"
+            />
+            <div class="card-body" style="background-color: #d93b30;">
+                <p class="cardTitle">New Buffalo</p>
+                <p class="timeing">130 miles away</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="cards">
+            <h3>Inspiration for your next trip</h3>
+            <div class="d-flex" style="gap: 3vw; padding-left: 1vw;">
+                <img src="./images/cards/sec- fig1.png" alt="picture not found">
+                <img src="./images/cards/sec-fig2.png" alt="picture not found">
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex gift-card">
+        <div class="title">
+            <p>Shop Airbnb<br>gift cards</p>
+            <button type="button" class="btn btn-dark">Learn More</button>
+        </div>
+        <img src="./images/cards/Gift Cards.png" alt="picture not found">
+    </section>
+    <section>
+        <img src="./images/cards/button-hero-section.png" style="margin-inline: 15vw; margin-top: 40px;">
+    </section>
+
+    <footer style=" margin-inline: 13vw;">
+        <p class="cardTitle" style="color: black;">Inspiration for future getaways</p>
+        <div class="d-flex" style="gap: 24px;">
+            <p class="header1" style="text-decoration: underline;">Destinations for arts & culture</p>
+            <p class="header2">Destinations for outdoor adventure</p>
+            <p class="header2">Mountain cabins</p>
+            <p class="header2">Beach destinations</p>
+            <p class="header2">Popular destinations</p>
+            <p class="header2">Unique Stays</p>
+        </div>
+        <table class="table">
+            <tr>
+                <td><span class="header1">Phoenix</span></td>
+                <td><span class="header1">Hot Springs</span><br><span class="header2">Arkansas</span></td>
+                <td><span class="header1">Los Angeles</span><br><span class="header2">California</span></td>
+                <td><span class="header1">San Diego</span><br><span class="header2">California</span></td>
+            </tr>
+            <tr>
+                <td><span class="header1"><span class="header2">California</span></td>
+                <td><span class="header1">Barcelona</span><br><span class="header2">Catalonia</span></td>
+                <td><span class="header1">Prague</span><br><span class="header2">Czechia</span></td>
+                <td><span class="header1">Prague</span><br><span class="header2">District of Columbia</span></td>
+            </tr>
+            <tr>
+                <td><span class="header1">Keswick</span><br><span class="header2">England</span></td>
+                <td><span class="header1">London</span><br><span class="header2">England</span></td>
+                <td><span class="header1">Scarborough</span><br><span class="header2">England</span></td>
+                <td><span class="header1" style="text-decoration: underline;">Show more</span></td>
+            </tr>
+        </table>
+    </footer>
+    <footer style="margin-top: 40px; margin-inline: 13vw;">
+        <table class="table">
+            <tr>
+                <td class="header1">Support</td>
+                <td class="header1">Community</td>
+                <td class="header1">Hosting</td>
+                <td class="header1">About</td>
+            </tr>
+            <tr>
+                <td class="header2">Help Center</td>
+                <td class="header2">Airbnb.org: disaster relief housing</td>
+                <td class="header2">Try hosting</td>
+                <td class="header2">Newsroom</span></td>
+            </tr>
+            <tr>
+                <td class="header2">Safety information</td>
+                <td class="header2">Support: Afghan refugees</td>
+                <td class="header2">AirCover: protection for Hosts</td>
+                <td class="header2">Learn about new features</td>
+            </tr>
+            <tr>
+                <td class="header2">Cancellation options</td>
+                <td class="header2">Celebrating diversity & belonging</td>
+                <td class="header2">Explore hosting resources</td>
+                <td class="header2">Letter from our founders</td>
+            </tr>
+            <tr>
+                <td class="header2">Our COVID-19 Response</td>
+                <td class="header2">Combating discriminatino</td>
+                <td class="header2">Visit our community forum</td>
+                <td class="header2">Careers</td>
+            </tr>
+            <tr>
+                <td class="header2">Supporting people with disabilities</td>
+                <td class="header2"></td>
+                <td class="header2">How to host responsibly</td>
+                <td class="header2">Investors</td>
+            </tr>
+            <tr>
+                <td class="header2">Report a neighborhoood concern</td>
+                <td class="header2"></td>
+                <td class="header2"></td>
+                <td class="header2">Report a neighborhoood concern</td>
+            </tr>
+        </table>
+    </footer>
+    <footer class="d-flex" style="margin-inline: 13vw; justify-content: space-between; margin-top: 30px;">
+        <p class="header2">© 2022 Airbnb, Inc. .Privacy Terms SiteMap</p>
+        <div class="d-flex" style="padding-right: 1vw; gap: 20px;">
+            <p style="text-decoration: underline;" class="header2"><i class="fa-solid fa-globe"></i> English(US)</p>
+            <p>$ USD</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+  </body>
+</html>
