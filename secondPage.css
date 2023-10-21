@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+#map {
+  height: 100%;
+  width: 40%;
+  background-color: rebeccapurple;
+}
+
+/* 
+   * Optional: Makes the sample page fill the window. 
+   */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding-inline: 2vw;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-option {
+  gap: 20px;
+}
+
+.options {
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.dialogBox {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.second-nav{
+  padding-inline: 2vw;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.second-nav > a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}

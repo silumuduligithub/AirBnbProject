@@ -79,7 +79,7 @@ nav > div > div {
 #search-menu > #search{
     padding-top: 12px;
 }
-#search-menu > div > i{
+#search-menu > div > a> i{
     display: flex;
     align-items: center;
     justify-content: center;
