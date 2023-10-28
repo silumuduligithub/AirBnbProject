@@ -1,0 +1,18 @@
+#searchLogo {
+  color: wheat;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+#nav{
+  margin-inline: 7vw;
+  justify-content: space-between;
+  width: 85%;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+}

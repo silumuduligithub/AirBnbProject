@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Location on Map</title>
+  <!-- Include Leaflet CSS and JavaScript -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <style>
+    /* Set the map container's size */
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Display Location on Map</h1>
+
+  <div id="map"></div>
+
+  <script>
+    // Initialize the map
+    var map = L.map('map').setView([52.5200, 13.4050], 13);
+
+    // Add a tile layer using OpenStreetMap data
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+    }).addTo(map);
+
+    // Add a marker for the given latitude and longitude
+    var marker = L.marker([52.5200, 13.4050]).addTo(map);
+
+    // Add a popup to the marker (optional)
+    marker.bindPopup("Your Location").openPopup();
+  </script>
+</body>
+</html>
